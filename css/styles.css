@@ -1,0 +1,166 @@
+body{
+  font-family: "Montserrat";
+
+}
+
+
+#title{
+  background-color:#ff4c68;
+  color: #fff;
+  padding-bottom: 0rem;
+}
+#features
+{
+  padding: 7% 15%;
+  background-color: #abc2e8;
+  position: relative;
+  z-index: 1;
+}
+.carousel-control-prev{
+  padding-right: 12%;
+}
+.carousel-control-next{
+  padding-right: 8%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+h2{
+  font-family: "Montserrat-Bold"
+  font-size:3rem;
+  line-height: 2.5rem;
+}
+.icon{
+  font-family: "Montserrat-Bold"
+  font-size:3rem;
+  line-height: 1.5rem;
+  color: yellow;
+}
+.sign{
+
+  color:yellow;
+  padding-bottom: 0%;
+}
+#pricing{
+padding:100px;
+background-color: #d3f4ff;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;;
+  color: #fff;
+}
+.press-logo{
+  width: 15%;
+padding-right: 2rem;
+  margin: 20px 20px 20px 50px;
+}
+.testimonial-image{
+  width:70%;
+  border-radius:100%;
+  margin: 20px;
+}
+.long-heading{
+  text-align: center;
+  font-weight: bold;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+h3{
+  font-family: "Montserrat-Bold"
+  font-size:1.5rem;
+}
+p{
+  color:black;
+
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.hr{
+  font: black;
+  height: 2px;
+}
+.circle-image{
+  width: 20%;
+  border: solid 5px;
+
+}
+.press-logo1{
+  width: 11%;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width:100%;
+
+  padding-left: 1px;
+  transform: rotate(0);
+  position:absolute ;
+  left: 20%;
+  margin-bottom: 5%;
+  border :solid 10px;
+  border-color: black;
+  padding-bottom: 0rem;
+
+}
+.sign-button{
+  padding: 15px;
+  margin: 15%;
+
+}
+
+.navbar{
+  padding:0 0 8 0rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu"
+  font-size:2.5rem;
+  font-weight: bold;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  padding: 5% 25%;
+  text-align: center;
+}
+@media (max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
